@@ -1,9 +1,16 @@
+:root {
+    --main_color: #81CAC1;
+    --secondary_color: #EBECEC;
+}
 .hero {
     background: #EBECEC;
     text-align: center;
-    padding: 160px 20px;
+    padding: 160px 0;
+    max-width: 75%;
+    margin: auto;
+    margin-top: 100px;
 }
-.hero p {
+p {
     font-size: 36px;
     font-weight: bold;
     margin: 0;
@@ -11,11 +18,19 @@
 .hero h1 {
     font-family: 'Josefin Slab', serif;
     font-style: italic;
-font-weight: bold;
-font-size: 72px;
-line-height: 72px;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 72px;
 }
 .hero h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;;
+    font-weight: bold;
+}
+.container {
+    text-align: center;
+    padding: 160px 0;
+    margin-top: 50px;
+}
+img {
+    height: 150px;
 }
