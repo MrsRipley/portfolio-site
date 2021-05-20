@@ -1,9 +1,9 @@
 :root {
-    --main_color: #81CAC1;
+    --primary_color: #81CAC1;
     --secondary_color: #EBECEC;
 }
 .hero {
-    background: #EBECEC;
+    background: var(--secondary_color);
     text-align: center;
     padding: 160px 0;
     max-width: 75%;
@@ -32,5 +32,5 @@ p {
     margin-top: 50px;
 }
 img {
-    height: 150px;
+    height: 300px;
 }
