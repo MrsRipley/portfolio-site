@@ -1,11 +1,13 @@
 :root {
     --primary_color: #81CAC1;
     --secondary_color: #EBECEC;
+    --serif_font: 'Josefin Slab';
+    --sansserif_font: 'Montserrat';
 }
 .hero {
     background: var(--secondary_color);
     text-align: center;
-    padding: 160px 0;
+    padding: 80px 20px;
     max-width: 75%;
     margin: auto;
     margin-top: 100px;
@@ -16,14 +18,14 @@ p {
     margin: 0;
 }
 .hero h1 {
-    font-family: 'Josefin Slab', serif;
+    font-family: var(--serif_font);
     font-style: italic;
     font-weight: bold;
     font-size: 72px;
     line-height: 72px;
 }
 .hero h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--sansserif_font);
     font-weight: bold;
 }
 .container {
@@ -34,9 +36,22 @@ p {
 img {
     height: 300px;
 }
-.about {
+.about-section img {
+    max-height: 600px;
+}
+.about-section h1 {
+    font-family: var(--serif_font);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 72px;
+}
+.about-section h2 {
+    font-size: 36px;
+}
+.about-section p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: light;
-    padding: 20px;
+    line-height: 2;
 }
