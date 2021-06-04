@@ -5,11 +5,11 @@
     --sansserif_font: 'Montserrat';
 }
 .navbar a{
-    font-family: var(--serif_font);
-    font-size: 20px;
+    font-family: var(--sansserif_font);
+    font-size: 30px;
 
 }
-.nav-link-active{
+.nav-link.active{
     font-weight: 700;
 }
 .hero {
@@ -45,17 +45,13 @@ h1 {
 .container .content {
     text-align: center;
 }
-.container a {
+.container .content a {
     text-align: center;
     font-family: var(--sansserif_font);
     font-weight: 300;
     font-size: 30px;
 }
 
-.icon-section {
-    max-height: 150px;
-    align-content: center;
-}
 .about-section img {
     max-height: 500px;
 }
@@ -69,17 +65,16 @@ h1 {
     font-weight: light;
     line-height: 2;
 }
-h3 {
-    font-family: var(--serif_font);
-    font-style: italic;
-    font-weight: bold;
-    font-size: 36px;
-}
+
 footer {
     margin: 100px 0;
 }
 footer h3 {
-    margin-right: 60px;
+    font-family: var(--serif_font);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(138, 138, 138);
 }
 footer .footer-links a{
     margin: 0 20px;
