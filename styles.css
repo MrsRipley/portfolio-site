@@ -4,6 +4,14 @@
     --serif_font: 'Josefin Slab';
     --sansserif_font: 'Montserrat';
 }
+.navbar a{
+    font-family: var(--serif_font);
+    font-size: 20px;
+
+}
+.nav-link-active{
+    font-weight: 700;
+}
 .hero {
     background: var(--secondary_color);
     text-align: center;
@@ -15,7 +23,6 @@
 }
 p {
     font-size: 36px;
-    font-weight: bold;
     margin: 0;
 }
 h1 {
@@ -25,20 +32,32 @@ h1 {
     font-size: 72px;
     line-height: 72px;
 }
+@media (max-width: 900px) {
+    h1 {
+        font-size: 48px;
+        line-height: 1.5px;
+    }
+}
 .hero h2 {
     font-family: var(--sansserif_font);
     font-weight: bold;
 }
-.content-container {
+.container .content {
     text-align: center;
-    padding: 160px 0;
-    margin-top: 50px;
 }
-img {
-    height: 300px;
+.container a {
+    text-align: center;
+    font-family: var(--sansserif_font);
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.icon-section {
+    max-height: 150px;
+    align-content: center;
 }
 .about-section img {
-    max-height: 600px;
+    max-height: 500px;
 }
 
 .about-section, .content h2 {
@@ -49,4 +68,20 @@ img {
     font-size: 20px;
     font-weight: light;
     line-height: 2;
+}
+h3 {
+    font-family: var(--serif_font);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+}
+footer {
+    margin: 100px 0;
+}
+footer h3 {
+    margin-right: 60px;
+}
+footer .footer-links a{
+    margin: 0 20px;
+    color: var(--primary_color)
 }
